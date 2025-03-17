@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{820C353A-513E-4A35-A407-721EB9E40BFA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>OOPExamples.Module1</StartupObject>
+    <StartupObject>OOPExamples.Main</StartupObject>
     <RootNamespace>OOPExamples</RootNamespace>
     <AssemblyName>OOPExamples</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="Main.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
