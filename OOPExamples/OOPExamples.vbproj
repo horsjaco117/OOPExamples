@@ -69,7 +69,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bird.vb" />
+    <Compile Include="Dog.vb" />
+    <Compile Include="Fish.vb" />
     <Compile Include="MainModule.vb" />
+    <Compile Include="Mammal.vb" />
     <Compile Include="My Project\Animal.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
